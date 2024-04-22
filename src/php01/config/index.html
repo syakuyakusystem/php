@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="course.php" method="POST">
+        <label>お名前:<input type="text" name="fullname" </label>
+            <br />
+    </form>
+
+    <form action="course.php" method="POST">
+        <label>ご希望商品:<input type="radio" name="set" value="Aセット">Aセット</label>
+        <label><input type="radio" name="set" value="Bセット">Bセット</label>
+        <label><input type="radio" name="set" value="Cセット">Cセット</label>
+        <br />
+    </form>
+
+    <form action="course.php" method="POST">
+        <label>注文数:<input type="number" name="fullnumber" </label>
+            <br />
+            <input type="submit" name="submit" value="送信する" />
+    </form>
+</body>
+
+</html>
