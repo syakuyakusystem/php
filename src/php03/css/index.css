@@ -4,6 +4,7 @@
     max-width: 1230px;
     text-align: center;
 }
+
 .search-form__heading {
     margin-bottom: 40px;
     text-align: center;
@@ -34,7 +35,7 @@
 }
 
 .search-form__button-submit {
-    padding: 10px;
+    pad: 10px;
     width: 100%;
     height: 40px;
     border: none;
